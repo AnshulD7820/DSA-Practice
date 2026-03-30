@@ -1,10 +1,13 @@
 import java.util.ArrayList;
 import java.util.List;
 
-// LeetCode Problem : 118. Pascal's Triangle
+// LeetCode Problem : 118. Pascal's Triangle                                   (3rd Variation : Print Pascal's Triangle)
 // Link : https://leetcode.com/problems/pascals-triangle
 
-// GFG Problem : Pascal Triangle
+// LeetCode Problem : 119. Pascal's Triangle II                              (2nd Variation : Print the entire r-th row)
+// Link : https://leetcode.com/problems/pascals-triangle-ii
+
+// GFG Problem : Pascal Triangle                                                    (2nd Variation : Print the r-th row)
 // Link : https://www.geeksforgeeks.org/problems/pascal-triangle0652/1
 
 
@@ -15,7 +18,7 @@ public class PascalTriangle {
         int c = 2;
         System.out.println("Element at row and column : " + pascalElement(r,c));
 
-        int n = 5;
+        int n = 3;
         System.out.println("Entire r-th row : " + pascalPrintRow(n));
 
         int n1 = 6 ;
@@ -46,14 +49,15 @@ public class PascalTriangle {
         long res = 1;
         row.add(1);
 
-        for (int i = 1 ;i < n ; i++){
-            res *= (n - i);
+        for (int i = 1 ;i <= n ; i++){
+            res *= (n - i + 1);
             res /= i ;
 
             row.add((int) res);
         }
         return row;
     }
+//    The above program is on zero based indexing... (LeetCode Solution)
 //    Time Complexity : O(n)
 //    Space Complexity : O(n)
 
