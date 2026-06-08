@@ -10,7 +10,7 @@ public class Count_Occurrence {
     }
 
 //    Approach :
-//    Formula / Concept => UpperBound - LowerBound , will end up of giving us the number of occurrence in an array
+//    Formula / Concept => UpperBound - LowerBound
 
 //    LowerBound :-
     public static int lowerBound(int[] arr, int target){
