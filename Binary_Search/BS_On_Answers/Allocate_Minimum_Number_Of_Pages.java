@@ -1,6 +1,9 @@
 //  GFG Problem : Allocate Minimum Pages
 //  Link : https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
 
+//  Painter's Partition = Book Allocation = Split Array Largest Sum
+//  This three problem are exactly same, only the story changes (code and logic are same)
+
 public class Allocate_Minimum_Number_Of_Pages {
     public static void main(String[] args) {
         int[] books = {12, 34, 67, 90};
