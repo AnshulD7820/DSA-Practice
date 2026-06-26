@@ -4,6 +4,9 @@
 //  LeetCode Problem : 410. Split Array Largest Sum
 //  Link : https://leetcode.com/problems/split-array-largest-sum
 
+//  Painter's Partition = Book Allocation = Split Array Largest Sum
+//  This three problem are exactly same, only the story changes (code and logic are same)
+
 public class Split_Array_Largest_Sum {
     public static void main(String[] args) {
         int[] nums = {1,2,3,4,5};
