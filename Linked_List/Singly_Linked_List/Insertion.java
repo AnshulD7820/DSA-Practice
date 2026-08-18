@@ -1,3 +1,4 @@
+package Singly_Linked_List;
 //  GFG Problem : Linked List Insertion At Beginning
 //  Link : https://www.geeksforgeeks.org/problems/linked-list-insertion-at-beginning/1
 

@@ -1,3 +1,4 @@
+package Singly_Linked_List;
 //  GFG Problem : Delete Head of Linked List
 //  Link : https://www.geeksforgeeks.org/problems/delete-head-of-linked-list/1
 

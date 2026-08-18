@@ -1,3 +1,4 @@
+package Doubly_Linked_List;
 //  GFG Problem : Delete Head of Doubly Linked List
 //  Link : https://www.geeksforgeeks.org/problems/delete-head-of-doubly-linked-list/1
 
