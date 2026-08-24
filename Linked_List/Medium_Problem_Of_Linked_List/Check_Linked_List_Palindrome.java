@@ -97,7 +97,7 @@ public class Check_Linked_List_Palindrome {
             fast = fast.next.next;
         }
 
-//        FIND START OF SECOND HALF
+//        STEP 2 : FIND START OF SECOND HALF
         Node secondHalf;
 
         if (fast == null) {
@@ -109,10 +109,10 @@ public class Check_Linked_List_Palindrome {
             secondHalf = slow.next;
         }
 
-//        STEP 2 : REVERSE THE SECOND HALF
+//        STEP 3 : REVERSE THE SECOND HALF
         secondHalf = reverse(secondHalf);
 
-//        STEP 3 : COMPARE FIRST HALF AND SECOND HALF
+//        STEP 4 : COMPARE FIRST HALF AND SECOND HALF
         Node first = head;
         Node second = secondHalf;
 
@@ -124,8 +124,8 @@ public class Check_Linked_List_Palindrome {
             second = second.next;
         }
 
-//        RESTORE THE SECOND HALF
-        slow.next = reverse(secondHalf);
+//        STEP 5 : RESTORE THE SECOND HALF
+        secondHalf = reverse(secondHalf);
 
         return true;
     }
